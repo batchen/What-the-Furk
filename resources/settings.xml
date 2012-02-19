@@ -1,0 +1,44 @@
+<settings>
+	<category label="Option">
+	    <setting id="separator" type="lsep" label="30100"/>
+		<setting id="download_meta" type="bool" label="30101" default="false" />
+		<setting id="use_posters" type="bool" label="30102" default="true" />
+		<setting id="use_fanart" type="bool" label="30103" default="true" />
+		<setting id="meta_quality" type="enum" values="Low|Medium|High|Maximum" label="30104" default="1" />
+	    <setting id="separator" type="lsep" label="30113"/>
+		<setting id="first_time_startup" type="bool" label="30114" default="true" />
+	</category>
+	<category label="IMDB">
+		<setting id="separator" type="lsep" label="30199"/>
+		<setting id="number_of_results" type="enum" values="100|200|300|400|500|600|700|800|900|1000" label="30200" default="0" />
+	    <setting id="separator" type="lsep" label="30201"/>
+		<setting id="release_date" type="bool" label="30202" default="false"/>
+		<setting id="release_date_from" type="text" label="30203" default="YYYY-MM-DD" enable="!eq(-1,false)"/>
+		<setting id="release_date_to" type="text" label="30204" default="YYYY-MM-DD" enable="!eq(-2,false)"/>
+		<setting id="separator" type="lsep" label="30205"/>
+		<setting id="user_rating" type="bool" label="30206" default="false"/>
+		<setting id="user_rating_min" type="text" label="30207" default="1.0" enable="!eq(-1,false)"/>
+		<setting id="user_rating_max" type="text" label="30208" default="10.0" enable="!eq(-2,false)"/>
+		<setting id="separator" type="lsep" label="30209"/>
+		<setting id="number_of_votes" type="bool" label="30210" default="false"/>
+		<setting id="number_of_votes_min" type="text" label="30211" default="10000" enable="!eq(-1,false)"/>
+		<setting id="number_of_votes_max" type="text" label="30212" default="" enable="!eq(-2,false)"/>
+	</category>
+	<category label="Furk">
+		<setting id="furk_account" type="bool" label="30300" default="false"/>
+		<setting id="furk_user" type="text" label="30301" default="" enable="!eq(-1,false)"/>
+		<setting id="furk_pass" type="text" option="hidden" label="30302" default="" enable="!eq(-2,false)"/>
+	</category>
+	<category label="Library">
+		<setting id="separator" type="lsep" label="30400"/>
+		<setting id="library_mode" type="bool" label="30401" default="false"/>
+		<setting id="subscription_update" type="bool" label="30402" default="false" enable="!eq(-1,false)"/>
+	    <setting id="subscription_timer" type="enum" values="2h|5h|10h|15h|24h" label="30403" default="1" enable="!eq(-1,false)"/>
+   		<setting id="movie_folders" type="bool" label="30404" default="false" enable="!eq(-3,false)" />
+		<setting id="tv_shows_custom_directory" type="bool" label="30405" default="false" enable="!eq(-4,false)"/>
+		<setting id="tv_shows_directory" type="folder" label="30406" default="" enable="!eq(-1,false)"/>
+		<setting id="movies_custom_directory" type="bool" label="30407" default="false" enable="!eq(-6,false)"/>
+		<setting id="movies_directory" type="folder" label="30408" default="" enable="!eq(-1,false)"/>
+	    <setting id="use_unicode_indicators" type="bool" label="30409" default="true" enable="!eq(-8,false)"/>
+	</category>
+</settings>

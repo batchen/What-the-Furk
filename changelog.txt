@@ -1,0 +1,21 @@
+1.0.2
+ Removed square brackets from episode names to fix a problem where the names didn't show up.
+ Made the automatic metadata download an option.
+ Corrected a bug where meta quality wasn't set to the correct value after downloading a metadata package.
+ Fix a bug which made filters always use the default value.
+ Added an option to switch between unicode indicators and non unicode indicators. Some skins support unicode characters others don't.
+ Fixed a bug where the addon failed to remove movie strm-files.
+ Made some changes to addapt to Furk Open API changes.
+ Fixed a problem where canceling a search actually never canceled the search.
+ Removed the demand of a successfull anti-virus check.
+1.0.1
+ Fixed a problem with skins which uses the title field of the metadata when listing menu items.
+ Fixed a bug where manual searches failed when no search.list was found.
+ Changed location of the meta download packages to allow non-premium members download the packages.
+ Fixed a bug where the posters and fanart toggle in addon-settings did nothing.
+ Made movie and TV show information show in the context menu when not in library mode as well.
+ Fixed a problem where the subscription service denied XBMC from completely shutting down.
+ Added an error message when the user fails to login to Furk.net.
+ Added the option to list up to 1000 movies or TV shows in each category.
+1.0.0
+ First release!

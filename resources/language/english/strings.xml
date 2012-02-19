@@ -1,0 +1,40 @@
+<strings>
+	<!-- Options -->
+	<string id="30100">Meta data</string>
+	<string id="30101">Download metadata while browsing</string>
+	<string id="30102">Use posters</string>
+	<string id="30103">Use fanart</string>
+	<string id="30104">Image quality</string>
+    <string id="30113">Other</string>
+    <string id="30114">Show setup next time What the Furk is run</string>	
+    <!-- Filters -->
+    <string id="30199">General</string>
+    <string id="30200">Number of menu items</string>
+    <string id="30201">Release date</string>
+    <string id="30202">Use filter</string>
+    <string id="30203">    From</string>
+    <string id="30204">    To</string>
+    <string id="30205">User rating</string>
+    <string id="30206">Use filter</string>
+    <string id="30207">    Min</string>
+    <string id="30208">    Max</string>
+    <string id="30209">Number of votes</string>
+    <string id="30210">Use filter</string>
+    <string id="30211">    Min</string>
+    <string id="30212">    Max</string>
+	<!-- Furk -->
+	<string id="30300">Furk account</string>
+	<string id="30301">    Username</string>
+    <string id="30302">    Password</string>
+    <!-- Library -->
+    <string id="30400">Library mode</string>
+	<string id="30401">Use libary mode</string>
+    <string id="30402">    Subscribe</string>
+    <string id="30403">        Update interval</string>  
+    <string id="30404">    One folder per movie</string>
+	<string id="30405">    Use custom TV-show directory</string>
+    <string id="30406">        TV-show directory</string>	
+    <string id="30407">    Use custom  movie directory</string>
+    <string id="30408">        Movie directory</string>	
+    <string id="30409">Use unicode indicators</string>
+</strings>

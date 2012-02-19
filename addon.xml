@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.whatthefurk"
+       name="What the Furk"
+       version="1.0.2"
+       provider-name="Batch">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service"
+             	library="service.py" start="startup">
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>An addon which let the user browse IMDB and use the data there to search Furk.net for media and stream the result.</summary>
+        <description>Visit www.xbmchub.com for support.
+
+What the Furk provides the user the ability do do IMDB powered media searches on Furk.net and gives the user the ability to stream the found media files.</description>
+    </extension>
+</addon>
